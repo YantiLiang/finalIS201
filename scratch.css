@@ -1,0 +1,51 @@
+body{
+    background-image:url(https://cdn.wallpapersafari.com/93/81/k8f4UX.jpg);
+    /* url(https://th.bing.com/th/id/OIP.YJREZT8fvUTTBnPtnQj46AHaEo?rs=1&pid=ImgDetMain); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+img{
+    border:2px solid whitesmoke;
+    padding: 2px;
+    width: 40%;
+    display: block;
+    margin: auto;
+
+}
+.centerme{
+    display: block;
+    margin: auto; 
+    /* if you want the video to the right margin left auto  */
+}
+
+
+li{
+    background-color: rgb(255, 196, 233);
+}
+.common{
+    position:absolute;
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+}
+.header{
+    top: 0px;
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+    color: rgb(212, 156, 165);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainbody{
+    top: 400px;
+}
